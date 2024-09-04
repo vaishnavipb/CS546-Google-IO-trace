@@ -27,4 +27,4 @@ Initial week to understand the project and expectations from it.
 **Next step?**  
 
 _______________
-#### Weekly MOM: https://docs.google.com/document/d/1HXy6TM12LvqHBX40IuTPkTRA6HWgs8jUvcBl-2Z02po
+#### [Weekly MOM](https://docs.google.com/document/d/1HXy6TM12LvqHBX40IuTPkTRA6HWgs8jUvcBl-2Z02po)
