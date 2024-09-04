@@ -8,11 +8,11 @@ Candice briefly explained the project and the components involved in it. The bel
 Initial week to understand the project and expectations from it. 
 
 **Checklist**
- [] Create git repo and provide access to Candice. 
- [] Read and understand [Google I/O thesios](https://github.com/google-research-datasets/thesios), [Darshan](https://www.mcs.anl.gov/research/projects/darshan/) and [IOR](https://ior.readthedocs.io/en/latest/index.html). 
- [] List the parameters in common between Google I/O and Darshan, especially if the parameters such as redundancy_type, from_flash_cache, cache_hit, simulated_latency are in common. 
- [] Decide on the evaluation plan. 
- [] Get started with project proposal
+- [ ] Create git repo and provide access to Candice. 
+- [ ] Read and understand [Google I/O thesios](https://github.com/google-research-datasets/thesios), [Darshan](https://www.mcs.anl.gov/research/projects/darshan/) and [IOR](https://ior.readthedocs.io/en/latest/index.html). 
+- [ ] List the parameters in common between Google I/O and Darshan, especially if the parameters such as redundancy_type, from_flash_cache, cache_hit, simulated_latency are in common. 
+- [ ] Decide on the evaluation plan. 
+- [ ] Get started with project proposal
 
 **What went well?**
   
