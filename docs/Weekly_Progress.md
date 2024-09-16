@@ -42,9 +42,34 @@ This week, my focus is on exploring Google I/O traces and understanding the para
 Explore and analyze Google I/O traces and Darshan, and finalize the environment configurations for simulation.
 
 **Checklist**  
-- [ ] Analyze Google I/O traces to identify different stats and relations between parameters.
-- [ ] Understand Google I/O trace environment configurations (to simulate/relate to our experiments) by looking for references in papers, Git repo, or contacting the authors.
+- [x] Analyze Google I/O traces to identify different stats and relations between parameters.
+- [x] Understand Google I/O trace environment configurations (to simulate/relate to our experiments) by looking for references in papers, Git repo, or contacting the authors.
 - [ ] Explore Darshan source code and pydarshan to understand parameters available.
+
+**What went well?**  
+I was able to make good progress analyzing the Thesios traces.
+**What did not go well?**  
+I had to push the exploration of Darshan due to a time crunch.
+**Did I learn anything important?**  
+Yes, I learned important workload observations from Thesios.
+**What is holding us back?**  
+  
+**What urgent questions do I have?**  
+  
+**Next step?**  
+Explore IOR and MPI to run the workloads in parallel.
+
+
+
+### Week 3 [Sept 16nd] :white_check_mark:
+**Summary**  
+**Goals**  
+The focus should be on identifying gaps with the 0 Bytes IO size traces in thesios data and to explore IOR, MPI to generate workload
+**Checklist**  
+- [ ] Start with replicating workload similar to cluster 1 (throughput oriented) - determine IO sizes specific to cluster 1
+- [ ] In the file sizes, we saw 0 bytes to be highest frequent, but does it mean there’s no file size in the request? Identify what exactly it means. 
+- [ ] How do we identify if a trace is throughput oriented or latency oriented in the traces? 
+- [ ] Explore IOR and MPI to run the workloads parallelly. In the later weeks, we can progress on utilizing darshan with IOR.  
 
 **What went well?**  
   
