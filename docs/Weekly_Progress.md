@@ -66,10 +66,10 @@ Explore IOR and MPI to run the workloads in parallel.
 **Goals**  
 The focus should be on identifying gaps with the 0 Bytes IO size traces in thesios data and to explore IOR, MPI to generate workload
 **Checklist**  
-- [ ] Start with replicating workload similar to cluster 1 (throughput oriented) - determine IO sizes specific to cluster 1
+- [x] Start with replicating workload similar to cluster 1 (throughput oriented) - determine IO sizes specific to cluster 1
 - [ ] In the file sizes, we saw 0 bytes to be highest frequent, but does it mean there’s no file size in the request? Identify what exactly it means. 
-- [ ] How do we identify if a trace is throughput oriented or latency oriented in the traces? 
-- [ ] Explore IOR and MPI to run the workloads parallelly. In the later weeks, we can progress on utilizing darshan with IOR.  
+- [x] How do we identify if a trace is throughput oriented or latency oriented in the traces? 
+- [x] Explore IOR and MPI to run the workloads parallely. In the later weeks, we can progress on utilizing darshan with IOR.  
 
 **What went well?**  
   
@@ -82,5 +82,27 @@ The focus should be on identifying gaps with the 0 Bytes IO size traces in thesi
 **What urgent questions do I have?**  
   
 **Next step?**  
+
+### Week 4 [Oct 11] :white_check_mark:
+**Summary**  
+**Goals**  
+Understand what are the flash cache and cache in thesios data. Explore IOR, Darshan. Identify request sizes based on op_type.
+**Checklist**  
+- [x] Identify request sizes based on op_type.
+- [ ] Understand what are the flash cache and cache in thesios data. Reach out to contributors of thesios if necessary. 
+- [ ] Experiment around IOR, MPI and darshan.   
+
+**What went well?**  
+  
+**What did not go well?**  
+  
+**Did I learn anything important?**  
+  
+**What is holding us back?**  
+  
+**What urgent questions do I have?**  
+  
+**Next step?**  
+
 _______________
 #### [Weekly MOM](https://docs.google.com/document/d/1HXy6TM12LvqHBX40IuTPkTRA6HWgs8jUvcBl-2Z02po)

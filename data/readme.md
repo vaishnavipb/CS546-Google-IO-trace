@@ -42,3 +42,6 @@
 - Most common IO sizes: 0KB, 256KB, 1MB
 
 Note: The above observations are made from 27 samples picked randomly in three clusters. In detail summary for each of them is in `data_exploration_output.docx` file.
+Code in [data_exploration.ipynb](data/data_exploration.ipynb)
+
+We have identified the request_io_size in bytes from thesios data. See more [here](data/thesios-data-analysis.ipynb)
