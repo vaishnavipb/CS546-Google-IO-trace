@@ -45,3 +45,23 @@ Note: The above observations are made from 27 samples picked randomly in three c
 Code in [data_exploration.ipynb](data/data_exploration.ipynb)
 
 We have identified the request_io_size in bytes from thesios data. See more [here](data/thesios-data-analysis.ipynb)
+
+
+
+I/O Size Distribution:
+--------------------------------------------------
+ares > 
+Exactly 512B: 12,984 samples (4.62%)
+Exactly 4KB: 55,762 samples (19.83%)
+Exactly 64KB: 71,822 samples (25.55%)
+Exactly 512KB: 49,878 samples (17.74%)
+Exactly 1MB: 67,794 samples (24.11%)
+Exactly 8MB: 22,890 samples (8.14%)
+
+thesios > 
+Exactly 512B: 4,430 samples (0.00%)
+Exactly 4KB: 167,518 samples (0.18%)
+Exactly 64KB: 74,578 samples (0.08%)
+Exactly 512KB: 14,941 samples (0.02%)
+Exactly 1MB: 3,845,958 samples (4.23%)
+Exactly 8MB: 29 samples (0.00%)
